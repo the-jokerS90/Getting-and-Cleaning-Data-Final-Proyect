@@ -12,7 +12,7 @@ This code book defines the use of most of the important variables that appears i
 
 	"featuresNames" and "activityNames" are variables that contain the features names and activity labels read from its corresponding files.
 
-	"auxiliar_dataframe" saves a temporary variable containing the merge of "subject_Data" and "activity_Data"
+	"auxiliar_dataframe" is a temporary variable containing the merge of "subject_Data" and "activity_Data"
 	"final_Data" stores the merge of "features_Data" (put in first place) and the previous auxiliar_dataframe (subject and activity data)
 
 	"subset_names" variable keeps the names of the feature data we are interested for the proyect (those which mean() or std() in its name), extracted from the second column of the variable "featuresNames"
