@@ -24,3 +24,5 @@ This code book defines the use of most of the important variables that appears i
 	In order to get the final dataset "proyect_Data1" tidy and ready to submit, it was labelled with more descriptive variable names.
 
 	"proyect_Data2" is the result of creating a new and independent tidy data set with the average of each variable for each activity and each subject from the previous proyect_Data1 dataset. The function "aggregate" was used for this purpose. It was also ordered by it subject column first, and then by it Activity column.
+
+	As a final step, the script saves the "proyect_Data2" dataset into both .txt and .csv files, being the .txt file used for submission.
